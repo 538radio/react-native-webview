@@ -67,5 +67,6 @@
 - (void)goBack;
 - (void)reload;
 - (void)stopLoading;
+- (WKWebView *)getWebView;
 
 @end
