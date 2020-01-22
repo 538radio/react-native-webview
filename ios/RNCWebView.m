@@ -1058,6 +1058,11 @@ static NSDictionary* customCertificatesForHost;
   [_webView stopLoading];
 }
 
+- (WKWebView *)getWebView
+{
+    return self.webView;
+}
+
 - (void)setBounces:(BOOL)bounces
 {
   _bounces = bounces;
